@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e5e5e5;
+
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: inline-block;
+  margin: 100px auto;
+}
+
+.form {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.write-us {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .form {
+    background-color: #fff;
+    padding: 60px 80px;
+    width: 500px;
+  }
+
+  button {
+    width: 167px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .form {
+    background-color: #fff;
+    padding: 60px 80px;
+    width: 500px;
+  }
+
+  button {
+    width: 167px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    background-color: #fff;
+    padding: 60px 40px;
+    max-width: 600px;
+  }
+
+  button {
+    width: 117px;
+  }
+}
+
+.label-form {
+  margin-top: 1rem;
+}
+
+.correo,
+.asuntoinput {
+  width: 100%;
+}
+
+.mensajetextartea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+}
+
+.space {
+  margin-top: 0.3rem;
+}
+
+.botones {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send {
+  background-color: #b91c1c;
+  padding: 8px 24px;
+}
+
+.resetbtn {
+  background-color: #18181b;
+  padding: 8px 24px;
+}
+
+.alerta {
+  margin-top: 5px;
+  background-color: #b91c1c;
+  color: #fff;
+  text-align: center;
+  padding: 2.5px 5px;
+}
+
+.opacity {
+  opacity: 50%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.spinner {
+  visibility: hidden;
+}
+
+.exito {
+  background-color: #16a34a;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  margin-top: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input-text {
+  padding: 8px;
+}
+
+.label-text {
+  font-weight: 600;
+  font-size: 14px;
+}
